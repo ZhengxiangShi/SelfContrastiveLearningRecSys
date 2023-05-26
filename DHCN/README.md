@@ -9,7 +9,7 @@ For Diginetica, the best beta value is 0.01; for Tmall, the best beta value is 0
 
 ### Running SCL
 ```
-CUDA_VISIBLE_DEVICES=0 python main.py \
+CUDA_VISIBLE_DEVICES=1 python main.py \
     --dataset Tmall \
     --epoch 30 \
     --batchSize 100 \
@@ -22,7 +22,7 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
     --item_cl_loss_weight 100.0 \
     --sampled_item_size 37000 \
     --use_item_cl_loss \
-    --saved_models_path output/Tmall_results
+    --remove_original_cl_loss --saved_models_path output/Tmall_results_nocl
 
 CUDA_VISIBLE_DEVICES=0 python main.py \
     --dataset Nowplaying \
@@ -54,5 +54,4 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
     --use_item_cl_loss \
     --saved_models_path output/diginetica_results
 ```
-Please refer to the original respository for reproducing the results of DHCN model.
-
+Please refer to the original respository for reproducing the results of DHCN model. You can use `--remove_original_cl_loss` to remove the original contrastive learning loss in the DHCN model.
