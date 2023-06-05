@@ -1,9 +1,9 @@
 # Self Contrastive Learning for Session-based Recommendation
-This repository provides the code for the paper titled **[Self Contrastive Learning for Session-based Recommendation]()**, making the integration of our code contributions into other projects more accessible.
+This repository provides the code for the paper titled **[Self Contrastive Learning for Session-based Recommendation](https://arxiv.org/abs/2306.01266)**, making the integration of our code contributions into other projects more accessible.
 
 <div align="center">
 
-  [![arxiv-link](https://img.shields.io/badge/Paper-PDF-red?style=flat&logo=arXiv&logoColor=red)]()
+  [![arxiv-link](https://img.shields.io/badge/Paper-PDF-red?style=flat&logo=arXiv&logoColor=red)](https://arxiv.org/abs/2306.01266)
   [![made-with-pytorch](https://img.shields.io/badge/Made%20with-PyTorch-brightgreen)](https://pytorch.org/)
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 </div>
@@ -56,8 +56,8 @@ If you have any questions regarding the code or the paper, please feel free to r
 @article{shi2023self,
 title = {Self Contrastive Learning for Session-based Recommendation},
 author = {Shi, Zhengxaing and Xi, Wang and Lipani, Aldo},
-journal = {arXiv preprint arXiv:2305.01711},
-url = {},
+journal = {arXiv preprint arXiv:2306.01266},
+url = {https://arxiv.org/abs/2306.01266},
 year = {2023},
 }
 ```
