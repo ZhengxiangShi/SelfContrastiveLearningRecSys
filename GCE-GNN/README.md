@@ -50,4 +50,4 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
     --use_item_cl_loss \
     --saved_models_path output/diginetica_item_cl_loss_w01_t01_ss32000_default
 ```
-Please refer to the original respository for reproducing the results of DHCN model.
+Please refer to the original repository for reproducing the results of GCE-GNN model.
