@@ -49,4 +49,4 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
     --use_item_cl_loss \
     --saved_models_path output/diginetica_item_cl_loss_w10_t01_ss33000_default
 ```
-Please refer to the original respository for reproducing the results of COTREC model. You can use `--remove_original_cl_loss` to remove the original contrastive learning loss in the COTREC model.
+Please refer to the original repository for reproducing the results of COTREC model. You can use `--remove_original_cl_loss` to remove the original contrastive learning loss in the COTREC model.

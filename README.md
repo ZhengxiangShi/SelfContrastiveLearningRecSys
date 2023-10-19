@@ -55,7 +55,7 @@ If you have any questions regarding the code or the paper, please feel free to r
 ```
 @article{shi2023self,
 title = {Self Contrastive Learning for Session-based Recommendation},
-author = {Shi, Zhengxaing and Xi, Wang and Lipani, Aldo},
+author = {Shi, Zhengxiang and Xi, Wang and Lipani, Aldo},
 journal = {arXiv preprint arXiv:2306.01266},
 url = {https://arxiv.org/abs/2306.01266},
 year = {2023},

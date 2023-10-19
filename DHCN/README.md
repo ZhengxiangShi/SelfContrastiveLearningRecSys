@@ -54,4 +54,4 @@ CUDA_VISIBLE_DEVICES=0 python main.py \
     --use_item_cl_loss \
     --saved_models_path output/diginetica_results
 ```
-Please refer to the original respository for reproducing the results of DHCN model. You can use `--remove_original_cl_loss` to remove the original contrastive learning loss in the DHCN model.
+Please refer to the original repository for reproducing the results of DHCN model. You can use `--remove_original_cl_loss` to remove the original contrastive learning loss in the DHCN model.
