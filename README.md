@@ -53,10 +53,12 @@ If you have any questions regarding the code or the paper, please feel free to r
 
 ## Citation
 ```
-@article{shi2023self,
+@inproceedings{shi2023self,
 title = {Self Contrastive Learning for Session-based Recommendation},
 author = {Shi, Zhengxiang and Xi, Wang and Lipani, Aldo},
-journal = {arXiv preprint arXiv:2306.01266},
+publisher = {Springer},
+address = {Glasgow, Scotland},
+booktitle={European Conference on Information Retrieval (ECIR 2024)},
 url = {https://arxiv.org/abs/2306.01266},
 year = {2023},
 }
